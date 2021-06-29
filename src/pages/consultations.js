@@ -16,7 +16,13 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
 		<Components.HeaderBlock />
-		<Section padding="6vw 0 6vw 0">
+		<Section
+			padding="96px 0 96px 0"
+			xl-padding="80px 0 52px 0"
+			lg-padding="64px 0 36px 0"
+			md-padding="48px 0 24px 0"
+			sm-padding="36px 0 16px 0"
+		>
 			<Override slot="SectionContent" max-width="800px" />
 			<Text font="--paragraph" color="--primary" margin="0px 0px 24px 0px" letter-spacing=".02em">
 				Book a Free Consultation
@@ -26,13 +32,13 @@ export default (() => {
 			</Components.Paragraph>
 		</Section>
 		<Section padding="0 0 8vw 0">
-			<Override slot="SectionContent" flex-direction="row" max-width="800px" />
-			<Box max-width="220px">
+			<Override slot="SectionContent" flex-direction="row" max-width="800px" sm-flex-direction="column" />
+			<Box max-width="220px" sm-max-width="100%" sm-margin="0px 0px 24px 0px">
 				<Text letter-spacing=".02em" font="--paragraph" margin="0px 0px 0px 0px">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
 				</Text>
 			</Box>
-			<Box width="100%" margin="0px 0px 0px 10vw">
+			<Box width="100%" margin="0px 0px 0px 10vw" sm-margin="0px 0px 0px 0px">
 				<Components.CustomForm display="grid" grid-template-columns="repeat(2, 1fr)" grid-gap="24px 8px">
 					<Components.CustomInput grid-area="1 / 1 / 2 / 2">
 						<Override slot="text">

@@ -32,7 +32,7 @@ const overrides = {
 			"background": "none",
 			"sm-background": "--bground2",
 			"md-background": "--bground2",
-			"md-padding": "24px 0px 36px 0px",
+			"md-padding": "32px 0px 36px 0px",
 			"md-align-items": "center",
 			"padding": "0px 0px 0px 0px"
 		}
@@ -49,7 +49,7 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "Cross",
-			"md-top": "30px",
+			"md-top": "36px",
 			"md-right": "calc(5% + 3px)"
 		}
 	},

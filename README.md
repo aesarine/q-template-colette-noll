@@ -15,6 +15,11 @@
     <img src="https://badgen.net/badge/Gatsby/2.23.12/purple" alt="Gatsby version" />
   </a>
   
+   <a href="https://github.com/aesarine/q-template-colette-noll/pulls">
+     <img src="https://badgen.net/github/prs/aesarine/q-template-colette-noll" alt="Pull Request Amount">
+   </a>
+   <img src="https://badgen.net/github/last-commit/aesarine/q-template-colette-noll" alt="Last commit date" />
+    
   <a href="./LICENSE">
     <img src="https://badgen.net/badge/license/MIT/blue" alt="License">
   </a>

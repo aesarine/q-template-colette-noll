@@ -48,13 +48,19 @@ export default (() => {
 			<Image src="https://uploads.quarkly.io/60d98a01344a590020ae01d8/images/image-1.jpeg?v=2021-06-28T10:15:22.971Z" object-fit="cover" />
 		</Section>
 		<Section padding="48px 0 0px 0" md-padding="36px 0 24px 0">
-			<Override slot="SectionContent" flex-direction="row" justify-content="space-between" />
+			<Override slot="SectionContent" flex-direction="row" justify-content="space-between" sm-flex-direction="column" />
 			<Box flex="1 0 auto">
-				<Text font="--paragraph" color="--primary" letter-spacing=".02em" margin="0px 0px 0px 0px">
+				<Text
+					font="--paragraph"
+					color="--primary"
+					letter-spacing=".02em"
+					margin="0px 0px 0px 0px"
+					sm-margin="0px 0px 16px 0px"
+				>
 					My Background
 				</Text>
 			</Box>
-			<Box max-width="66.66%">
+			<Box max-width="66.66%" sm-max-width="100%">
 				<Components.Paragraph margin="0px 0px 48px 0px">
 					I’m an intuitive chef who learned by doing, helping my mother and aunt cook elaborate family meals from the time I was old enough to hold a spoon. Those early experiences led me to pursue an M.A. in Nutrition and I now combine my love of food and healthy living to help clients live and eat better.
 				</Components.Paragraph>
@@ -101,6 +107,8 @@ export default (() => {
 				margin="0px 0px 96px 0px"
 				position="relative"
 				lg-margin="0px 0px 64px 0px"
+				sm-flex-direction="column"
+				sm-align-items="center"
 			>
 				<Image
 					src="https://uploads.quarkly.io/60d98a01344a590020ae01d8/images/image-4.jpeg?v=2021-06-28T10:15:22.984Z"
@@ -108,13 +116,33 @@ export default (() => {
 					width="45%"
 					flex="0 0 auto"
 					md-width="50%"
+					sm-margin="0px 0px 24px 0px"
 				/>
-				<Components.Paragraph margin="0px 0px 0px 8%" max-width="450px" md-margin="0px 0px 0px 24px">
+				<Components.Paragraph
+					margin="0px 0px 0px 8%"
+					max-width="450px"
+					md-margin="0px 0px 0px 24px"
+					sm-margin="0px 0px 0px 0px"
+					sm-text-align="center"
+				>
 					I believe that in a world of modern maladies caused by work and lifestyle, food is often the best medicine. I teach my clients how to make small dietary changes that stack up big gains over time.
 				</Components.Paragraph>
 			</Box>
-			<Box quarkly-title="Card" display="flex" justify-content="space-between" align-items="center">
-				<Box max-width="450px" margin="0px 8% 0px 0px" md-margin="0px 24px 0px 0px">
+			<Box
+				quarkly-title="Card"
+				display="flex"
+				justify-content="space-between"
+				align-items="center"
+				sm-flex-direction="column-reverse"
+				sm-align-items="center"
+			>
+				<Box
+					max-width="450px"
+					margin="0px 8% 0px 0px"
+					md-margin="0px 24px 0px 0px"
+					sm-text-align="center"
+					sm-margin="0px 0px 0px 0px"
+				>
 					<Components.Paragraph>
 						“Colette’s method is incredible.
 						<br />
@@ -130,6 +158,7 @@ export default (() => {
 					width="45%"
 					flex="0 0 auto"
 					md-width="50%"
+					sm-margin="0px 0px 24px 0px"
 				/>
 			</Box>
 		</Section>
